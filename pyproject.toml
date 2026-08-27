@@ -1,0 +1,25 @@
+[project]
+name = "llm-zoomcamp-2026-code"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Pavla Pintaric", email = "pavla.pintaric235@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "jupyter>=1.1.1",
+    "minsearch>=0.2.0",
+    "openai>=3.3.1",
+    "python-dotenv>=1.2.3",
+    "requests>=2.34.2",
+    "sqlitesearch>=0.3.0",
+    "toyaikit>=0.0.11",
+]
+
+[project.scripts]
+llm-zoomcamp-2026-code = "llm_zoomcamp_2026_code:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
