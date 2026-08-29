@@ -1,0 +1,18 @@
+[project]
+name = "llm-zoomcamp-onnx"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "minsearch>=0.2.0",
+    "numpy>=2.5.2",
+    "onnxruntime>=1.29.0",
+    "tokenizers>=0.23.1",
+    "tqdm>=4.66.5",
+]
+
+[dependency-groups]
+dev = [
+    "huggingface-hub>=1.29.0",
+    "ipykernel>=7.3.0",
+    "jupyter>=1.1.1",
+]
